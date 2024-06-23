@@ -13,8 +13,6 @@ sudo apt-get install python3-full -y
 git clone https://github.com/rdougla3/Jarvis-rpi.git
 cd Jarvis-rpi
 python -m venv jvenv
-deactivate
-source jvenv/bin/activate
 jvenv/bin/pip install --upgrade pip
 jvenv/bin/pip3 install -r requirements.txt
 jvenv/bin/pip3 install -r rpi_requirements.txt
