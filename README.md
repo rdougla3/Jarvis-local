@@ -1,3 +1,8 @@
+#Installer
+1) curl -fsSL https://raw.githubusercontent.com/rdougla3/Jarvis-rpi/main/rpi_install.sh | sh
+2) Set assistant keys in assist.py
+3) cd Jarvis-rpi; source jvenv/bin/activate; python jarvis.py
+
 # Jarvis
 This Python script, jarvis.py, emulates a conversational AI assistant similar to Jarvis from Iron Man. It utilizes OpenAI's Whisper V3 for accurate speech recognition, GPT-3.5 Turbo for intelligent and context-aware response generation, and OpenAI's TTS (Text-to-Speech) to verbalize responses.
 
