@@ -14,8 +14,7 @@ git clone https://github.com/rdougla3/Jarvis-rpi.git
 cd Jarvis-rpi
 python -m venv jvenv
 deactivate
-ls
 source jvenv/bin/activate
-pip install --upgrade pip
-pip3 install -r requirements.txt
-pip3 install -r rpi_requirements.txt
+jvenv/bin/pip install --upgrade pip
+jvenv/bin/pip3 install -r requirements.txt
+jvenv/bin/pip3 install -r rpi_requirements.txt
