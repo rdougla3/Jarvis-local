@@ -2,13 +2,15 @@ from openai import OpenAI
 import time
 from pygame import mixer
 import os
+
+os.environ["OPENAI_API_KEY"] = "your key here"
+assistant_id = ""
+thread_id = ""
+
 #https://platform.openai.com/playground/assistants
 # Initialize the client and mixer
 client = OpenAI(default_headers={"OpenAI-Beta": "assistants=v2"})
 mixer.init()
-
-assistant_id = ""
-thread_id = ""
 
 # Retrieve the assistant and thread
 assistant = client.beta.assistants.retrieve(assistant_id)
