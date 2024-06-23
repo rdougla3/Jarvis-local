@@ -2,16 +2,6 @@
 
 error() { echo "ERROR $*"; exit 1; }
 
-SUDO=
-if [ "$(id -u)" -ne 0 ]; then
-    # Running as root, no need for sudo
-    if ! available sudo; then
-        error "This script requires superuser permissions. Please re-run as root."
-    fi
-
-    SUDO="sudo"
-fi
-
 [ "$(uname -s)" = "Linux" ] || error 'This script is intended to run on Linux only.'
 
 sudo apt update
