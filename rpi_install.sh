@@ -2,7 +2,6 @@ sudo apt update
 sudo apt full-upgrade
 sudo apt-get install portaudio19-dev
 sudo apt-get install python3-pip
-sudo pip3 install virtualenv 
 
 python -m venv jvenv
 deactivate
