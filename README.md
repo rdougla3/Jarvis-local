@@ -1,4 +1,4 @@
-#Installer
+# Installer
 1) curl -fsSL https://raw.githubusercontent.com/rdougla3/Jarvis-rpi/main/rpi_install.sh | sh
 2) Set assistant keys in assist.py
 3) cd Jarvis-rpi; source jvenv/bin/activate; python jarvis.py
