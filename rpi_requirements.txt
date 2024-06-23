@@ -11,7 +11,7 @@ distro==1.9.0
 enum34==1.1.10
 faster-whisper==1.0.2
 filelock==3.15.4
-flatbuffers==20181003210633
+flatbuffers==24.3.25
 fsspec==2024.6.0
 h11==0.14.0
 halo==0.0.31
