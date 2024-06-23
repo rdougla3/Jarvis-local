@@ -1,11 +1,12 @@
 from openai import OpenAI
+import sounddevice
 import time
 from pygame import mixer
 import os
 
 os.environ["OPENAI_API_KEY"] = "your key here"
-assistant_id = ""
-thread_id = ""
+assistant_id = "id key here"
+thread_id = "your id here"
 
 #https://platform.openai.com/playground/assistants
 # Initialize the client and mixer
