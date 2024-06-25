@@ -8,6 +8,7 @@ sudo apt update -y
 sudo apt full-upgrade -y
 sudo apt-get install portaudio19-dev -y
 sudo apt-get install git -y
+sudo apt-get install python3-dev -y
 sudo apt-get install python3-full -y
 
 git clone https://github.com/rdougla3/Jarvis-rpi.git
