@@ -4,8 +4,8 @@ error() { echo "ERROR $*"; exit 1; }
 
 [ "$(uname -s)" = "Linux" ] || error 'This script is intended to run on Linux only.'
 
-sudo apt update
-sudo apt full-upgrade
+sudo apt update -y
+sudo apt full-upgrade -y
 sudo apt-get install portaudio19-dev -y
 sudo apt-get install git -y
 sudo apt-get install python3-full -y
