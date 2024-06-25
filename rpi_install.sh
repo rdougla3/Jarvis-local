@@ -6,8 +6,8 @@ error() { echo "ERROR $*"; exit 1; }
 
 sudo apt update
 sudo apt full-upgrade
-sudo apt-get install portaudio19-dev
-sudo apt-get install git
+sudo apt-get install portaudio19-dev -y
+sudo apt-get install git -y
 sudo apt-get install python3-full -y
 
 git clone https://github.com/rdougla3/Jarvis-rpi.git
