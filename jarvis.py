@@ -1,4 +1,5 @@
 import assist
+import ask
 import tools
 
 import argparse
@@ -145,7 +146,7 @@ def main():
                             print("User: " + text)
                             print("ASKING AI")
                             print(text)
-                            response = assist.ask_question_memory(text)
+                            response = ask.ask_question_memory(text)
                             print("AI: " + response)
                             if tts_enabled:
                                 pause()
